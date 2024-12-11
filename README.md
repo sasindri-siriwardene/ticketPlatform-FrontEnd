@@ -3,27 +3,28 @@
 This project is a Ticket Platform Simulation built with React and Vite. It allows users to configure ticket parameters and view logs of the simulation.
 
 ## Project Structure
-ticketPlatform/ 
-- ├── .gitignore 
-- ├── eslint.config.js 
-- ├── index.html 
-├── package.json 
-├── public/ 
-├── README.md 
-├── src/ 
-│ ├── App.css 
-│ ├── App.jsx 
-│ ├── assets/ 
-│ ├── Components/ 
-│ │ ├── ConfigurationForm.css 
-│ │ ├── ConfigurationForm.jsx 
-│ │ ├── ControlPanel.css 
-│ │ ├── ControlPanel.jsx
-│ │ ├── LogDisplay.css 
-│ │ ├── LogDisplay.jsx 
-│ ├── index.css 
-│ ├── main.jsx 
-├── vite.config.js
+ticketPlatform/ <br>
+├── .gitignore <br>
+├── eslint.config.js <br>
+├── index.html <br>
+├── package.json <br>
+├── public/ <br>
+├── README.md <br>
+├── src/ <br>
+│ ├── App.css <br>
+│ ├── App.jsx <br>
+│ ├── assets/ <br>
+│ ├── Components/ <br>
+│ │ ├── ConfigurationForm.css <br>
+│ │ ├── ConfigurationForm.jsx <br>
+│ │ ├── ControlPanel.css <br>
+│ │ ├── ControlPanel.jsx <br>
+│ │ ├── LogDisplay.css <br>
+│ │ ├── LogDisplay.jsx <br>
+│ ├── index.css <br>
+│ ├── main.jsx <br>
+├── vite.config.js <br>
+
 
 
 ## Getting Started
