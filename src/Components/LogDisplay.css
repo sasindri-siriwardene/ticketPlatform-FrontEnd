@@ -1,0 +1,39 @@
+import React, { useState, useEffect } from 'react';
+import './LogDisplay.css';
+.LogContainer {
+    background-color:beige
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 50%;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+   
+  }
+  
+  .LogContainer p {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  .LogContainer p:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  
+  .LogContainer p:before {
+    content: '📊';
+    margin-right: 10px;
+  }
+  .LogContainer p:nth-child(1):before { content: '🎟️'; }
+.LogContainer p:nth-child(2):before { content: '⏱️'; }
+.LogContainer p:nth-child(3):before { content: '👥'; }
+.LogContainer p:nth-child(4):before { content: '📈'; }
+.LogContainer p:nth-child(5):before { content: '📝'; }
