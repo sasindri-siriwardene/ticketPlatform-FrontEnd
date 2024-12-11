@@ -4,9 +4,9 @@ This project is a Ticket Platform Simulation built with React and Vite. It allow
 
 ## Project Structure
 ticketPlatform/ 
-├── .gitignore 
-├── eslint.config.js 
-├── index.html 
+- ├── .gitignore 
+- ├── eslint.config.js 
+- ├── index.html 
 ├── package.json 
 ├── public/ 
 ├── README.md 
